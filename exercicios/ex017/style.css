@@ -1,0 +1,23 @@
+body {
+    background-color: antiquewhite;
+    font: normal 16px Arial;
+}
+h1 {
+    font: 3em 'Times New Roman';
+    color:darkblue;
+}
+h2 {
+    font: 2em 'Times New Roman';
+    color:aqua;
+}
+p {
+    text-align: justify;
+}
+#titulo {
+    color: rgb(255, 255, 30);
+    text-align: center;
+    background-color: green;
+}
+.subtitulos1 {
+    color: blueviolet;
+}
