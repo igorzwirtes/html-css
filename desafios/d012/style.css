@@ -5,30 +5,40 @@
     padding: 0px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 header {
     font-family: 'Passion One', cursive;
     text-align: center;
     background-color: black;
     color: white;
     margin: auto;
-    padding: 50px 0px;
-    width: 98vw;
-    height: 80px;
 }
 
 header > h1 {
     font-size: 3em;
+    font-variant: small-caps;
+    padding-top: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
 }
 
 main {
     font-family: 'Sriracha', cursive;
-    font-size: 18px;
+    font-size: 5vw 5vh;
     text-align: left;
-    border: 1px solid black;
 }
 
-section.normal {
-    padding: 100px 20px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    line-height: 2em;
+    font-size: 4vw;
 }
 
 #cima {
@@ -51,23 +61,21 @@ section.normal {
 
 #cima > p {
     background-color: rgba(0, 0, 0, 0.591);
-    width: 220px;
+    display: inline-block;
     padding: 20px 15px;
 }
 
 #baixo > p {
     background-color: rgba(0, 0, 0, 0.591);
-    width: 220px;
+    display: inline-block;
     padding: 20px 15px;
 }
 
 footer {
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: auto;
-    width: 98vw;
-    height: 10px;
-    padding: 10px 0px;
+    padding: 10px;
 }
